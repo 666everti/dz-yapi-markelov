@@ -1,0 +1,310 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="static/" />
+    <link href="/css/all.css" rel="stylesheet" />
+    <title>ilya hello world</title>
+  </head>
+
+  <body>
+    <div class="bg wrapper">
+      <div class="boxsounds">          
+            <h1 class="textboxsounds">PLAYLIST</h1>
+            <div class="menu_song">
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>01</span>
+                <img src="songs/sngimg/1.png" alt="" />
+                <h5>
+                  Reckless<br />
+                  <div class="subtitle">Cotis</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-1"></i>
+                <audio id="audio-1" src="songs/1Cotis - Reckless.mp3"></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>02</span>
+                <img src="songs/sngimg/2.png" alt="" />
+                <h5>
+                  FUNK UNIVERSO<br />
+                  <div class="subtitle">Irokz</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-2"></i>
+                <audio id="audio-2" src="songs/2FUNK UNIVERSO.mp3"></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>03</span>
+                <img src="songs/sngimg/3.png" alt="" />
+                <h5>
+                  Rumors<br />
+                  <div class="subtitle">Jake Miller</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-3"></i>
+                <audio
+                  id="audio-3"
+                  src="songs/3Jake Miller - Rumors.mp3"
+                ></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>04</span>
+                <img src="songs/sngimg/4.png" alt="" />
+                <h5>
+                  Let Me Love You<br />
+                  <div class="subtitle">DJ Snake, Justin Bieber, R3HAB</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-4"></i>
+                <audio id="audio-4" src="songs/4Let Me Love You.mp3"></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>05</span>
+                <img src="songs/sngimg/5.png" alt="" />
+                <h5>
+                  Don’t Give Up On Me Now<br />
+                  <div class="subtitle">R3HAB</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-5"></i>
+                <audio
+                  id="audio-5"
+                  src="songs/5R3HAB - Don’t Give Up On Me Now.mp3"
+                ></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>06</span>
+                <img src="songs/sngimg/6.png" alt="" />
+                <h5>
+                  Post Malone<br />
+                  <div class="subtitle">Sam Feldt</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-6"></i>
+                <audio
+                  id="audio-6"
+                  src="songs/6Sam Feldt - Post Malone.mp3"
+                ></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>07</span>
+                <img src="songs/sngimg/7.png" alt="" />
+                <h5>
+                  Drink About<br />
+                  <div class="subtitle">Seeb</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-7"></i>
+                <audio id="audio-7" src="songs/7Seeb - Drink About.mp3"></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>08</span>
+                <img src="songs/sngimg/8.png" alt="" />
+                <h5>
+                  Better Off Alone<br />
+                  <div class="subtitle">THAT KIND</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-8"></i>
+                <audio
+                  id="audio-8"
+                  src="songs/8THAT KIND - Better Off Alone.mp3"
+                ></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>09</span>
+                <img src="songs/sngimg/9.png" alt="" />
+                <h5>
+                  Daylight<br />
+                  <div class="subtitle">David Kushner</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-9"></i>
+                <audio
+                  id="audio-9"
+                  src="songs/9David Kushner - Daylight.mp3"
+                ></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>10</span>
+                <img src="songs/sngimg/10.png" alt="" />
+                <h5>
+                  Bones<br />
+                  <div class="subtitle">Galantis</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-10"></i>
+                <audio id="audio-10" src="songs/10Galantis - Bones.mp3"></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>11</span>
+                <img src="songs/sngimg/11.png" alt="" />
+                <h5>
+                  I Fly<br />
+                  <div class="subtitle">Galantis, Faouzia</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-11"></i>
+                <audio id="audio-11" src="songs/11Galantis - I Fly.mp3"></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>12</span>
+                <img src="songs/sngimg/12.png" alt="" />
+                <h5>
+                  Starboy<br />
+                  <div class="subtitle">The Weeknd, Daft Punk</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-12"></i>
+                <audio
+                  id="audio-12"
+                  src="songs/12The Weeknd - Starboy.mp3"
+                ></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>13</span>
+                <img src="songs/sngimg/13.png" alt="" />
+                <h5>
+                  Heartburn<br />
+                  <div class="subtitle">Wafia, Felix Cartal</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-13"></i>
+                <audio
+                  id="audio-13"
+                  src="songs/13Wafia - Heartburn.mp3"
+                ></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+              <li class="songItem" onclick="togglePlayPause(this)">
+                <span>14</span>
+                <img src="songs/sngimg/14.png" alt="" />
+                <h5>
+                  Ultraviolence<br />
+                  <div class="subtitle">Lana Del Rey</div>
+                </h5>
+                <i class="bi fas fa-play-circle fa-xl" id="playButton-14"></i>
+                <audio id="audio-14" src="songs/14Ultraviolence.mp3"></audio>
+                <div class="progress-container">
+                  <input type="range" min="0" max="100" value="0">
+                  <span class="progress-text" >0%</span>
+                </div>
+              </li>
+            </div>
+            <div id="bars">
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+              <div class="bar1"></div>
+            </div>          
+        </div>      
+      <div class="container">
+        <div class="track-info-box">
+          <h2>PLAYING NOW</h2>
+          <span id="current-track-info" class="track-info-style"></span>
+        </div>
+        <div id="hello_image">
+          <img
+            src="images/plastinka.png"
+            class="rotate"
+            width="95%"
+            height="auto"
+          />
+        </div>
+        <div id="hello_world">
+          <div class="centered">
+            <audio id="myaudio" src="images/song.mp3"></audio>
+            <button id="audio-button" class="shine-button shine-botton-text">
+              <i class="fas fa-play fa-xl" id="play-pause-icon"></i>
+            </button>
+          </div>
+        </div>
+        <div class="track-line-box"></div>
+      </div>
+      <div class="boxvolume">
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5"/>
+        <h1 class="textboxvolume">CHANGE THE VOLUME</h1>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
